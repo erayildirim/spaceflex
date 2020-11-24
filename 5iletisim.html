@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Space Flex</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        }
+
+    body {
+        background-color: #878f99;
+    }
+
+    .title {
+        background-image: url(http://www.theskyscrapers.org/stuff/contentmgr/files/1/1e118532c7bb3a9706e361dc016f7614/header/r_leo_chart.jpg);
+        
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        color: snow;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        font-family: 'PT Serif ';
+    }
+
+    nav {
+        background-color:rgb(32, 3, 58);
+        width: 100%;
+        height: 50px;
+        }
+
+    nav ul {
+        text-align: center;
+        margin: auto;
+        }
+
+    nav ul li {
+        display: inline-block;
+        margin: -2px;
+        margin-top: 16px;
+        }
+
+    nav ul li a {
+        padding: 15px 30px;
+        border-right: 1px solid black;
+        color: snow;
+        margin-top: 100;
+        }
+
+    nav ul li a:hover {
+        background-color: cornflowerblue;
+    }
+
+    @media (max-width: 768px) {
+        nav {height: auto;}
+        nav ul li a {
+            display: block;
+            border-bottom: 1px solid black;
+            margin-top: auto;
+            border-right: 0cm;
+            }
+        nav ul li {
+            display: block;
+            margin-top: 0px;
+        }
+
+        .haritadiv {
+            display: block;
+            width: 100%;
+        }
+
+        .harita1 {
+            width: 100%;
+        }
+    }
+
+    .icerik5 {
+        
+        width: 100%;
+        text-align: center;
+        }
+
+    .alticerik {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .haritadiv {
+        text-align: center;
+        margin-top: 20px;
+       
+    }
+
+    .harita1 {
+        width: 50%;
+    }
+
+    h2 {
+        color: snow;
+        }
+
+    .footer {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(32, 3, 58);
+        display: flex;
+        margin-top: 35px;
+        color: snow;
+    }
+
+    .icfoot {
+        text-align: center;
+        flex-grow: 4;
+    }
+
+    .copyright {
+        display: inline-block;
+        padding: 15px;
+        margin-left: 150px;
+        }
+    
+    .icons1 {
+        flex-grow: 0.05;
+        margin-top: 9px;
+    }
+
+    .icons2 {
+        flex-grow: 0.05;
+        margin-top: 9px;
+    }
+
+    .icons3 {
+        flex-grow: 0.05;
+        margin-top: 9px;
+    }
+
+    .footer .icons1 a {
+        color: snow;
+    }
+    
+    .footer .icons2 a {
+        color: snow;
+    }
+    
+    .footer .icons3 a {
+        color: snow;
+    }
+    
+    .footer .icons4 a {
+        color: snow;
+    }
+
+    .fa-envelope {
+        font-weight: bold;
+    }
+
+
+    
+    
+</style>
+
+<body>
+    <div class="title">SPACE FLEX</div>
+    <nav>
+    <ul>
+        <li><a href="index.html"><b>ANASAYFA</b></a></li>
+        <li><a href="2hizmetlerimiz.html"><b>HİZMETLERİMİZ</b></a></li>
+        <li><a href="3kurumsal.html"><b>KURUMSAL</b></a></li>
+        <li><a href="4kariyer.html"><b>KARİYER</b></a></li>
+        <li><a href="5iletisim.html"><b>İLETİŞİM</b></a></li>
+    </ul>
+    </nav>
+
+    <div class="icerik5">
+        <div class="alticerik">
+        <h2>BİZE ULAŞIN</h2>
+        <ul>
+            <li><i class="fas fa-phone-alt fa-2x"> 05xx xxx xx xx</i></li>
+            <li><i class="far fa-envelope fa-2x"> spaceflex00000@gmail.com</i></li>
+            <li><i class="fas fa-map-marked-alt fa-2x">  xxxxxx,xxxxx Las Vegas, NV</i></li>
+        </ul>
+        </div>
+        <div class="haritadiv"><iframe class="harita1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206225.35949176786!2d-115.14950413121588!3d36.13560842836332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c45e5468d0ed%3A0xf98463eab8414b62!2sLas%20Vegas%2C%20NV%2C%20USA!5e0!3m2!1sen!2str!4v1606233673770!5m2!1sen!2str" width="50%" height="530px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+    </div>
+
+    <div class="footer">
+        <div class="icfoot">
+        <div class="copyright">COPYRIGHT</div>
+        </div>
+        <div class="icons1">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a> </div>
+        <div class="icons2">
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a> </div>
+        <div class="icons3">
+            <a href="https://www.instagram.com/?hl=tr" target="_blank"><i class="fab fa-instagram fa-2x"></i></a> </div>
+        <div class="icons3">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a> </div>
+    </div>
+
+</body>
+</html>
